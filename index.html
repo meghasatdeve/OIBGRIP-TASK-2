@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter in Javascript</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <style>
+      #convert {
+  background-color: #bba768;
+}
+#convert:hover {
+  background-color: #bcc768;
+}
+h1 {
+  font-family: sans-serif;
+  color: #70b2e5;
+}
+input {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 2em;
+  color: #f4a55a;
+  font-family: cursive, sans-serif;
+}
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+:-moz-placeholder { 
+   color: #ccc;  
+}
+::-moz-placeholder { 
+   color: #ccc;  
+}
+:-ms-input-placeholder {  
+   color: #ccc;  
+}
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  color: #545454;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    background-color: #5e8b7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  </style>
+  <body>
+    <!-- <h1>Temperature Converter</h1>
+ 
+    <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+    
+    <input type="text" id="celsius" placeholder="Celsius" name="c" value="" /> -->
+    
+
+    <div class="card inputSection ">
+        <div class="card-body">
+                <span class="card-title d-block">Temperature Converter</span>
+                <div class="input-group">
+                  <div class="input-group-append">
+                        <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+        
+                        <input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
+                    </select>
+                  </div>
+                </div>
+
+
+    <button id="convert">Convert!</button>
+    <button id="clear">Reset</button>
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
